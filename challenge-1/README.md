@@ -1,59 +1,58 @@
 # React Intermediate Challenge 2 - Styles, Fetching API, Testing.
 
-For this challenge you will create an awesome React App which fetch the "Picture of the day" from the NASA open API `APOD`.
+For this challenge, you will create an awesome React App which fetches the "Picture of the day" from the NASA open `APOD API`.
 
 ## Instructions
 
-On this time you will create an app from scratch, and the UI design is up to you considering the best UX experience.
+Create an app from scratch, consider your best UX knowledge for the UI design; it is up to you.
 
-We recommend you to consider the next elements that should contain the app, this are optional:
+**Recommendations**
+We recommend you consider the following elements that should contain the app:
 
 - Title
-- Date picker
+- Date Picker
 - Main section with the image
 
-Please read the following requisites in order to complete this challenge.
+**Requisites**
+- Don't use UI Libraries. You have to build your styles. You can use styled-components such as SASS, LESS, or CSS. You are free to use the approach that makes sense to you.
+- Fetch API Calls from the `NASA APOD` using your API KEY.
+- Publish your app using free services such as Github pages, Netflify, or Heroku. 
+- Share the URL on the PR.
+- Use the React Testing Library and Jest tools to add tests.
+- Use functional components and React Hooks as possible.
 
-- Create a new branch with name `challenge-2` from this repository.
-- Use Create React App.
-- Complete all the Acceptance Criterias.
-- Don't use UI Libraries. You have to build your own styles. Styled components, SASS, LESS, CSS, etc are allowed, you are free to use the approach that makes sense to you.
-- You have to fetch API Calls from the NASA `APOD` using your API KEY.
-- Publish your app using free services like Github pages, Netflify, Heroku, etc, and **share the URL on the PR.**
-- **You have to use React Testing Library and Jest tools in order to add tests.**
-- **Use functional components and React Hooks as possible.**
+### Completing the Challenge
+Follow these steps to complete this challenge:
+1. Create a new branch with the name **challenge-2** from this repository.
+1. Use the Create React App.
+1. Complete all the Acceptance Criteria (AC).
+
+
 
 ## Resources.
 
-- [NASA open apis](https://api.nasa.gov/).
+- [NASA APIs](https://api.nasa.gov/)
 
-## Acceptance Criteria (AC)
+## Acceptance Criteria (AC) and Score
 
-- When the user enters on the app, the app should shows the picture of the day.
-- When the user selects a specific date with the format YYYY-MM-DD, then the app should show the picture of the day for the given date.
-- The app should be responsive.
-- When the app fetch the API and there is an unexpected error, the app should shows a message "There was an error, please try again".
-- When the user selects a invalid date value and clicks on `show` button, the app should show a message error from the api response.
+| Acceptance Criteria | Description                                                                                                                               | Points for Completed | Points for Automated |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------|----------------------|----------------------|
+| 1               | When the user enters the app, the app should show the Picture of the Day.                                                                 | 10                   | 10                   |
+| 2              | When the user selects a specific date with the format YYYY-MM-DD, the app should show the picture of the day for the given date.          | 20                   | n/a                  |
+| 3               | The app should be responsive.                                                                                                             | 20                   | n/a                  |
+| 4              | When the app fetches the API, and there is an unexpected error, the app should show a message: "There was an error, please try again."    | 20                   | n/a                  |
+| 5               | When the user selects an invalid date value and clicks on the **show** button, the app should show a message error from the API response. | 20                   | n/a                  |
 
-## Score
+### Bonus
 
-- First AC completed: `10`.
-- Automated Test for first AC: `10`
-- Second AC completed `20`.
-- Third AC completed `20`.
-- Fourth AC completed `20`.
-- Fifth AC completed `20`.
+The bonus is a plus that helps us know you better and increments your final score.
 
-## Bonus
-
-The bonus are a plus that help us to know you better and increments your final score.
-
-- Automated Test for second AC: `10`.
-- Automated Test for third AC: `10`.
-- Automated Test for fourth AC: `10`.
-- Automated Test for fifth AC: `10`.
-- The app is responsive: `20`.
+- Automated Test for Second AC: `10` points.
+- Automated Test for Third AC: `10` points.
+- Automated Test for Fourth AC: `10` points.
+- Automated Test for Fifth AC: `10` points.
+- The app is responsive: `20` points.
 
 ## Questions?
 
-If you have any question about this challenge, feel free to ask on the Slack channel ASAP.
+If you have any questions about this challenge, feel free to ask on the Slack channel ASAP.
