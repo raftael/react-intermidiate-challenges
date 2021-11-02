@@ -1,14 +1,13 @@
 # React Intermediate Challenges
-This challenges are part of the candidates selections for the React intermidiate - advanced Bootcamp.
+These challenges are part of the candidates' selection for the intermediate and advanced  React Bootcamp.
 
 ## Instructions
-This is a mono repository which contains all the challenges that you have to accomplish. Please follow the next instructions.
+This is a mono repository that contains all the challenges that you have to accomplish. Follow these instructions:
 
-- Fork this repository.
-- Each challenge contains its own README.md with instructions for particular challenge.
+1. Fork this repository.
+2. Go to each challenge.
+3. Follow the corresponding README.md with instructions.
 
 ## Scores
 
-On each challenge you will see different scores criteria.
-
-On higher score, more probability to you to enter on the React Intermidiate Bootcamp.
+On each challenge, you will see different scores criteria. The higher score, the more probability you have to enter the React Intermediate Bootcamp.
