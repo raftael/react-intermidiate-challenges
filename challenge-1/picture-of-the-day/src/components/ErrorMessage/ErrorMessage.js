@@ -3,8 +3,7 @@ import { API_ERROR_MESSAGE } from '../../utils/constants';
 import './ErrorMessage.styles.css'
 
 export default function ErrorMessage(props) {
-  const { msg } = props;
-  console.log(msg)
+  const { msg } = props;  
   return (
     <div data-testid="error-message">
       <p className="error-message">{API_ERROR_MESSAGE}</p>
