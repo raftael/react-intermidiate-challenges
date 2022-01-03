@@ -1,0 +1,17 @@
+
+.datepicker-inputcontainer {
+    width: 300px;
+}
+
+.react-datepicker__input-container input {
+    height: 30px;
+    padding-left: 10px;
+    font-size: medium;
+    width: 300px;
+}
+
+.pick-date {
+    color: black;
+    font-size: medium;
+    text-align: left;
+}

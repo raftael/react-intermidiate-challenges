@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
+import Layout from './components/Layout/Layout';
 import reportWebVitals from './reportWebVitals';
+import { AppContextWrapper } from './context/AppContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppContextWrapper>
+      <Layout>
+        <App />
+      </Layout>
+    </AppContextWrapper>
   </React.StrictMode>,
   document.getElementById('root')
 );
